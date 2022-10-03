@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+main {
+    display: flex;
+    width: 60vh;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    background-color: grey;
+    box-shadow: inset;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    background-color: green;
+}
+
+#title {
+    text-align: center;
+}
+
+#win {
+    color: white;
+    max-width: 150px;
+}
+
+#board {
+    display: flex;
+    justify-content: center;
+}
+
+#player-turn {
+    position: relative;
+    font-size: 24px;
+    top: 10px;
+}
+
+.cell {
+    width: 20vh;
+    height: 20vh;
+    font-size: 12vh;
+    border: 1px solid green;
+    text-align: center;
+    color: black;
+}
+
+input {
+    width: 150px;
+    height: 50px;
+    color: black
+}
+
+.start-button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.restart-button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin-top: 10px;
+}
